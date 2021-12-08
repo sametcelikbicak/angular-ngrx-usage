@@ -1,7 +1,12 @@
-<button (click)="increment()">Increment</button>
+<div class="content">
+  <div class="counts">
+    <p>Current Count: {{ currentCount$ | async }}</p>
+    <p>Previous Count: {{ previousCount$ | async }}</p>
+  </div>
+  <div class="buttons">
+    <button (click)="increment()">Increment ( + )</button>
+    <button (click)="decrement()">Decrement ( - )</button>
 
-<div>Current Count: {{ count$ | async }}</div>
-
-<button (click)="decrement()">Decrement</button>
-
-<button (click)="reset()">Reset Counter</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+</div>

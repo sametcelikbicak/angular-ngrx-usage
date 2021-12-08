@@ -1,0 +1,24 @@
+
+.content{
+  margin: 0 10%;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 42px;
+}
+.counts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
